@@ -5078,6 +5078,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 144.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "3b723cfd-3891-434a-a3b6-9fed412c1541")
 		)
@@ -5294,6 +5303,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7a28ebe-8760-4eb6-ba0d-135615d51ecd")
 		)
@@ -5408,6 +5426,15 @@
 			)
 		)
 		(property "Specifications" ""
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 124.46 80.01 0)
 			(effects
 				(font
@@ -5607,6 +5634,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "6676bfcb-7e85-438b-8643-376d5882c0da")
 		)
@@ -5792,6 +5828,15 @@
 			)
 		)
 		(property "Specifications" ""
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 149.86 80.01 0)
 			(effects
 				(font
@@ -6058,6 +6103,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 49.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "6dabba54-d2ae-4a8b-8fec-5de21d22fe40")
 		)
@@ -6246,6 +6300,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e2d0061-ab03-4a3e-99ae-3d535348ad6b")
 		)
@@ -6365,6 +6428,15 @@
 			)
 		)
 		(property "Specifications" ""
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -6578,6 +6650,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 198.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e14cf4cd-43e1-4ec3-ba9b-054608dc3e31")
 		)
@@ -6621,7 +6702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "uwu:XTAL_ASE-24.576MHZ-LC-T"
+		(property "Footprint" "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -6694,6 +6775,15 @@
 			)
 		)
 		(property "Specifications" ""
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -6956,6 +7046,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ff95c7d-9246-4465-8691-47422152afc2")
 		)
@@ -7072,6 +7171,15 @@
 			)
 		)
 		(property "Specifications" ""
+			(at 226.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 226.06 100.33 0)
 			(effects
 				(font
@@ -7370,6 +7478,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4062639-9e4a-47d9-a015-2b7fd8ccd348")
 		)
@@ -7486,6 +7603,15 @@
 			)
 		)
 		(property "Specifications" ""
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 189.23 69.85 0)
 			(effects
 				(font
@@ -7638,6 +7764,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "158306f4-7506-4ee2-aead-8cd2bc3f41fc")
 		)
@@ -7774,6 +7909,15 @@
 			)
 		)
 		(property "Specifications" ""
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 173.99 64.77 0)
 			(effects
 				(font
