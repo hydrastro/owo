@@ -11,6 +11,8 @@
 		(0 "F.Cu" jumper)
 		(1 "In1.Cu" signal)
 		(2 "In2.Cu" signal)
+		(3 "In3.Cu" signal)
+		(4 "In4.Cu" signal)
 		(31 "B.Cu" signal)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
@@ -69,7 +71,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 0.535)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -79,6 +81,28 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In3.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 4"
+				(type "core")
+				(thickness 0.535)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In4.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 5"
 				(type "prepreg")
 				(thickness 0.1)
 				(material "FR4")
@@ -137,7 +161,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -51893,6 +51917,74 @@
 			(justify mirror)
 		)
 	)
+	(dimension
+		(type aligned)
+		(layer "B.SilkS")
+		(uuid "8718b092-2b11-4d08-98fa-bf6c7c524d36")
+		(pts
+			(xy 146.5 98.5) (xy 192.8 98.5)
+		)
+		(height 0)
+		(gr_text "46.3000 mm"
+			(at 169.65 97.4 0)
+			(layer "B.SilkS")
+			(uuid "8718b092-2b11-4d08-98fa-bf6c7c524d36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "B.SilkS")
+		(uuid "c93dd387-5d65-4c4b-a874-8c4c05022c9b")
+		(pts
+			(xy 140.5 34.4) (xy 140.5 95)
+		)
+		(height 0)
+		(gr_text "60.6000 mm"
+			(at 139.4 64.7 90)
+			(layer "B.SilkS")
+			(uuid "c93dd387-5d65-4c4b-a874-8c4c05022c9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(zone
 		(net 25)
 		(net_name "V5N_ANA")
@@ -51911,8 +52003,30 @@
 		)
 		(polygon
 			(pts
-				(xy 189.1 70.7) (xy 146.5 70.7) (xy 146.5 75) (xy 182.88449 74.9) (xy 182.9 73.7) (xy 186 73.7)
-				(xy 189.1 73.7) (xy 189.1 73.7)
+				(xy 173.6 70.7) (xy 148.8 70.7) (xy 148.8 75) (xy 173.6 75)
+			)
+		)
+	)
+	(zone
+		(net 3)
+		(net_name "V3.3_SYS")
+		(layer "In1.Cu")
+		(uuid "2a3c2cd1-3b6a-4f37-8b7b-cd43011a6f87")
+		(hatch edge 0.5)
+		(priority 5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 146.5 94.9) (xy 146.5 89.7) (xy 146.6 89.6) (xy 180.9 89.6) (xy 180.9 62.3) (xy 146.5 62.3)
+				(xy 146.5 34.4) (xy 192.8 34.4) (xy 192.8 94.9)
 			)
 		)
 	)
@@ -51934,7 +52048,7 @@
 		)
 		(polygon
 			(pts
-				(xy 189.1 76.7) (xy 182.9 76.7) (xy 182.892465 75.5) (xy 146.5 75.5) (xy 146.5 79.7) (xy 189.1 79.7)
+				(xy 173.6 75.5) (xy 148.8 75.5) (xy 148.8 79.8) (xy 173.6 79.8)
 			)
 		)
 	)
@@ -51956,8 +52070,8 @@
 		)
 		(polygon
 			(pts
-				(xy 146.5 62.6) (xy 146.5 70.3) (xy 146.5 70.3) (xy 189.5 70.3) (xy 189.5 83.8) (xy 189.6 83.9)
-				(xy 192.8 83.9) (xy 192.8 62.6)
+				(xy 146.5 62.6) (xy 146.5 70.3) (xy 146.5 70.3) (xy 174 70.3) (xy 174 80.20056) (xy 148.4 80.229203)
+				(xy 148.4 70.3) (xy 146.5 70.3) (xy 146.5 80.330769) (xy 146.5 89.3) (xy 180.6 89.3) (xy 180.6 62.6)
 			)
 		)
 	)
