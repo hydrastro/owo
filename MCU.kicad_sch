@@ -3530,16 +3530,6 @@
 		)
 		(uuid "fdf9dea2-f3d7-4862-b746-ba9c500b385e")
 	)
-	(text "AGND??"
-		(exclude_from_sim no)
-		(at 119.38 87.376 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4eff26da-15bb-4fc2-a456-5a11bf3ae150")
-	)
 	(global_label "BTN_2"
 		(shape input)
 		(at 62.23 137.16 0)
@@ -5477,7 +5467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 118.11 69.8499 90)
 			(effects
 				(font
@@ -5879,7 +5869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 118.11 80.0099 90)
 			(effects
 				(font

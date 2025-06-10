@@ -3166,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 91.44) (xy 34.29 91.44)
+			(xy 30.48 91.44) (xy 55.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3233,6 +3233,16 @@
 			(type default)
 		)
 		(uuid "49205954-b0e8-4fa4-8fef-555b7c39e935")
+	)
+	(wire
+		(pts
+			(xy 43.18 50.8) (xy 53.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499bdbb3-16e9-4c0c-81b6-b24ab38a6177")
 	)
 	(wire
 		(pts
@@ -3466,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 44.45) (xy 246.38 44.45)
+			(xy 243.84 44.45) (xy 260.35 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3513,16 +3523,6 @@
 			(type default)
 		)
 		(uuid "7676258c-5e46-4aec-8d6e-ae470b91906b")
-	)
-	(wire
-		(pts
-			(xy 256.54 44.45) (xy 260.35 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77a3196c-6c50-4b3b-be87-74685673376f")
 	)
 	(wire
 		(pts
@@ -3623,16 +3623,6 @@
 			(type default)
 		)
 		(uuid "8740391a-52e6-4044-b3e8-79a917dea3d1")
-	)
-	(wire
-		(pts
-			(xy 44.45 91.44) (xy 55.88 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8887bb1d-8d86-43e7-923a-fb943cdde658")
 	)
 	(wire
 		(pts
@@ -4046,16 +4036,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 67.31) (xy 256.54 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c797c01f-c04c-4e23-b388-ccaa66b776a5")
-	)
-	(wire
-		(pts
 			(xy 63.5 20.32) (xy 73.66 20.32)
 		)
 		(stroke
@@ -4096,7 +4076,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 67.31) (xy 243.84 67.31)
+			(xy 43.18 53.34) (xy 53.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1020c82-38d9-482b-a10a-3c1593e7340f")
+	)
+	(wire
+		(pts
+			(xy 243.84 67.31) (xy 260.35 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5572,140 +5562,6 @@
 			(project "owo"
 				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 251.46 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f4b7100-e8ba-4891-829c-ee9bbdc2b22c")
-		(property "Reference" "R42"
-			(at 251.46 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 251.46 44.45 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 248.285 47.625 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 254.635 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" ""
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17907575-7956-4056-b240-bfd53fbe861b")
-		)
-		(pin "2"
-			(uuid "b6698f7f-7745-4622-9f88-a6d51e44cef0")
-		)
-		(instances
-			(project "owo"
-				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -10225,7 +10081,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -11004,140 +10860,6 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 251.46 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3b2ca42-b1c1-4d00-bfed-d38f30947d79")
-		(property "Reference" "R41"
-			(at 251.46 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 251.46 67.31 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 248.285 70.485 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 254.635 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" ""
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "258a6429-18cd-4331-ab62-629801290c64")
-		)
-		(pin "2"
-			(uuid "7bd42813-ae11-4a56-a60a-a1ee97216633")
-		)
-		(instances
-			(project ""
-				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
 		(at 93.98 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11520,149 +11242,6 @@
 			(project "owo"
 				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 48.26 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9b1544b-96a1-4786-b4db-014e99207b6a")
-		(property "Reference" "R39"
-			(at 48.26 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 48.26 53.34 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 45.085 56.515 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 51.435 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Type" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b6ff4ca-6899-4aa9-9c89-1d43662a19f4")
-		)
-		(pin "2"
-			(uuid "78d93bc6-13d9-46e2-bfd8-2b4cbec0e01d")
-		)
-		(instances
-			(project "owo"
-				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
-					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -12248,149 +11827,6 @@
 			(project "owo"
 				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 48.26 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dea32a95-5771-458a-bafc-f27f746570d6")
-		(property "Reference" "R38"
-			(at 48.26 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 48.26 50.8 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 45.085 53.975 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 51.435 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Type" ""
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" ""
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8afb4698-9653-44c6-8b45-7127c555466c")
-		)
-		(pin "2"
-			(uuid "f1c3cd9a-91d2-42eb-a7b3-3253228680a1")
-		)
-		(instances
-			(project ""
-				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
-					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -13092,7 +12528,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 57.15 0)
 			(effects
 				(font
@@ -13629,149 +13065,6 @@
 			(project "owo"
 				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 39.37 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1a1807d-9f91-4615-a736-22d22b896e3b")
-		(property "Reference" "R33"
-			(at 39.37 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 39.37 91.44 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 36.195 94.615 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 42.545 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Type" ""
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" ""
-			(at 39.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f92adead-a173-4acf-ba42-bb1fd059e6ae")
-		)
-		(pin "1"
-			(uuid "8b78035c-8520-43e6-a26d-15f3c20198cc")
-		)
-		(instances
-			(project ""
-				(path "/bf8ac4c6-d1c7-49a9-8a5e-5cf20f43f3d7/9b7c4d78-b6e4-444f-b126-d0a943b11551"
-					(reference "R33")
 					(unit 1)
 				)
 			)
