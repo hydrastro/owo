@@ -8,7 +8,9 @@
 	)
 	(paper "A4")
 	(layers
-		(0 "F.Cu" signal)
+		(0 "F.Cu" jumper)
+		(1 "In1.Cu" signal)
+		(2 "In2.Cu" signal)
 		(31 "B.Cu" signal)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
@@ -39,6 +41,67 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -51828,6 +51891,117 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(zone
+		(net 25)
+		(net_name "V5N_ANA")
+		(layer "In1.Cu")
+		(uuid "126094bb-90b0-428b-bc0b-1a2b12e105f1")
+		(hatch edge 0.5)
+		(priority 3)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 189.1 70.7) (xy 146.5 70.7) (xy 146.5 75) (xy 182.88449 74.9) (xy 182.9 73.7) (xy 186 73.7)
+				(xy 189.1 73.7) (xy 189.1 73.7)
+			)
+		)
+	)
+	(zone
+		(net 24)
+		(net_name "V5P_ANA")
+		(layer "In1.Cu")
+		(uuid "c3bda75a-3ca9-41f1-bbac-61eee155e1de")
+		(hatch edge 0.5)
+		(priority 2)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 189.1 76.7) (xy 182.9 76.7) (xy 182.892465 75.5) (xy 146.5 75.5) (xy 146.5 79.7) (xy 189.1 79.7)
+			)
+		)
+	)
+	(zone
+		(net 18)
+		(net_name "V3.3_ANA")
+		(layer "In1.Cu")
+		(uuid "f53185bb-2911-4632-854d-ba5f95c44d16")
+		(hatch edge 0.5)
+		(priority 4)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 146.5 62.6) (xy 146.5 70.3) (xy 146.5 70.3) (xy 189.5 70.3) (xy 189.5 83.8) (xy 189.6 83.9)
+				(xy 192.8 83.9) (xy 192.8 62.6)
+			)
+		)
+	)
+	(zone
+		(net 7)
+		(net_name "AGND")
+		(layer "In2.Cu")
+		(uuid "e6c48498-566d-495f-a16c-eaf8504458f3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 166 94.9) (xy 166.1 64.9) (xy 146.5 64.9) (xy 146.5 94.8) (xy 146.5 94.9)
+			)
+		)
+	)
+	(zone
+		(net 4)
+		(net_name "GND")
+		(layer "In2.Cu")
+		(uuid "ea741751-7765-4f80-ab24-e61c2e05343f")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 149 64.1) (xy 166.9 64.1) (xy 166.9 94.9) (xy 192.8 94.9) (xy 192.8 34.4) (xy 192.8 34.4) (xy 149 34.4)
+			)
 		)
 	)
 	(group ""
