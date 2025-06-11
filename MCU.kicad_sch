@@ -3530,6 +3530,16 @@
 		)
 		(uuid "fdf9dea2-f3d7-4862-b746-ba9c500b385e")
 	)
+	(text "TODO: OPA_EN signal (max 1V)"
+		(exclude_from_sim no)
+		(at 91.948 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15bd2189-e658-4fa1-b5ac-799afcb86833")
+	)
 	(global_label "BTN_2"
 		(shape input)
 		(at 62.23 137.16 0)
