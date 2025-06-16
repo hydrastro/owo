@@ -163,7 +163,7 @@
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 1.0
         },
         {
           "td_allow_use_two_tracks": true,
@@ -185,7 +185,9 @@
         0.25,
         0.3,
         0.4,
-        0.5
+        0.5,
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -217,6 +219,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.6
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.9
+        },
+        {
+          "diameter": 0.6,
+          "drill": 1.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -228,54 +242,7 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_presets": [
-      {
-        "activeLayer": -2,
-        "layers": [
-          38,
-          44,
-          46
-        ],
-        "name": "back",
-        "renderLayers": [
-          125,
-          126,
-          127,
-          128,
-          129,
-          130,
-          133,
-          134,
-          135,
-          136,
-          137,
-          138,
-          140,
-          141,
-          142,
-          143,
-          144,
-          145,
-          146,
-          147,
-          148,
-          149,
-          150,
-          151,
-          152,
-          153,
-          154,
-          155,
-          157,
-          158,
-          159,
-          160,
-          161,
-          164,
-          165
-        ]
-      }
-    ],
+    "layer_presets": [],
     "viewports": []
   },
   "boards": [],
@@ -523,6 +490,108 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.12,
+        "name": "3v3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.9,
+        "via_drill": 0.45,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.35,
+        "microvia_drill": 0.15,
+        "name": "5v",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.1,
+        "name": "Fast",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "buck",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 1.2,
+        "via_drill": 0.6,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.1,
+        "name": "dac",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.35,
+        "microvia_drill": 0.15,
+        "name": "jack",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.9,
+        "via_drill": 0.45,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -534,6 +603,74 @@
       {
         "netclass": "Default",
         "pattern": "Power"
+      },
+      {
+        "netclass": "3v3",
+        "pattern": "V3.3_SYS"
+      },
+      {
+        "netclass": "5v",
+        "pattern": "V5P_ANA"
+      },
+      {
+        "netclass": "3v3",
+        "pattern": "V5N_ANA"
+      },
+      {
+        "netclass": "jack",
+        "pattern": "LINEOUT_R"
+      },
+      {
+        "netclass": "jack",
+        "pattern": "LINEOUT_L"
+      },
+      {
+        "netclass": "jack",
+        "pattern": "OPA_OUTL"
+      },
+      {
+        "netclass": "jack",
+        "pattern": "OPA_OUTR"
+      },
+      {
+        "netclass": "dac",
+        "pattern": "PCM_OUTR"
+      },
+      {
+        "netclass": "dac",
+        "pattern": "PCM_OUTL"
+      },
+      {
+        "netclass": "3v3",
+        "pattern": "VSYS"
+      },
+      {
+        "netclass": "buck",
+        "pattern": "BUCK"
+      },
+      {
+        "netclass": "Fast",
+        "pattern": "ESP_SCK"
+      },
+      {
+        "netclass": "Fast",
+        "pattern": "ESP_SDA"
+      },
+      {
+        "netclass": "Fast",
+        "pattern": "I2S_BCK"
+      },
+      {
+        "netclass": "Fast",
+        "pattern": "SD_CS"
+      },
+      {
+        "netclass": "Fast",
+        "pattern": "USB_DN"
+      },
+      {
+        "netclass": "Fast",
+        "pattern": "DISP_DC"
       }
     ]
   },
@@ -544,7 +681,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "owow.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
@@ -818,7 +955,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
+    "net_format_name": "Spice",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
